@@ -1,0 +1,18 @@
+# Modèles et poids (fichiers très lourds)
+TP1/models/*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Configuration et IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Streamlit
+.streamlit/
