@@ -1,0 +1,62 @@
+{
+  "audio_path": "TP3/data/call_01.wav",
+  "model_id": "openai/whisper-base",
+  "device": "cuda",
+  "audio_duration_s": 60.4586875,
+  "elapsed_s": 2.5301361083984375,
+  "rtf": 0.041849008190897916,
+  "pii_stats": {
+    "emails": 1,
+    "phones": 0,
+    "orders": 1
+  },
+  "intent_scores": {
+    "refund_or_replacement": 3,
+    "delivery_issue": 6,
+    "general_support": 6
+  },
+  "intent": "delivery_issue",
+  "top_terms": [
+    [
+      "thank",
+      2
+    ],
+    [
+      "calling",
+      2
+    ],
+    [
+      "order",
+      2
+    ],
+    [
+      "number",
+      2
+    ],
+    [
+      "redacted",
+      2
+    ],
+    [
+      "hello",
+      1
+    ],
+    [
+      "customer",
+      1
+    ],
+    [
+      "support",
+      1
+    ],
+    [
+      "name",
+      1
+    ],
+    [
+      "alex",
+      1
+    ]
+  ],
+  "redacted_text": "hello.thank you 4 calling customer support.my name is alex and i will help you today.im calling about a norder that arrive the mage.the package was delivered yesterday.but the screen is cracked.i would like a refund.or a replacement.as soon as possible.the order number is [REDACTED_ORDER]@[REDACTED_EMAIL] show my phone number.5 5 5 0 noon 1, 9, 9.thank you."
+}
