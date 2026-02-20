@@ -16,3 +16,6 @@ ENV/
 
 # Streamlit
 .streamlit/
+
+# Runs
+TP4/runs/ 

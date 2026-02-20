@@ -1,0 +1,14 @@
+seed: 42
+device: "cuda"
+epochs: 100 # On réduit à 100 car le sampling peut converger différemment
+lr: 0.005
+weight_decay: 0.0005
+
+sage:
+  hidden_dim: 16
+  dropout: 0.5
+
+sampling:
+  batch_size: 64
+  num_neighbors_l1: 15
+  num_neighbors_l2: 10
